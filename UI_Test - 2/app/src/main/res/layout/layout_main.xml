@@ -21,20 +21,21 @@
         app:layout_constraintVertical_bias="0.005">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/edtInput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="1"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="@string/inputHere"
+            android:inputType="text" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnSend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="Button" />
+            android:onClick="string2Send"
+            android:text="@string/send" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

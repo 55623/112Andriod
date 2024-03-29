@@ -1,4 +1,4 @@
-package com.example.bmi;
+package com.example.bmi2;
 
 import android.content.Context;
 
